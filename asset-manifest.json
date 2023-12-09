@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nj-blog/static/css/main.56557cc0.css",
-    "main.js": "/nj-blog/static/js/main.c95dfbd7.js",
+    "main.js": "/nj-blog/static/js/main.54cd018d.js",
     "static/js/787.43623c70.chunk.js": "/nj-blog/static/js/787.43623c70.chunk.js",
     "index.html": "/nj-blog/index.html",
     "main.56557cc0.css.map": "/nj-blog/static/css/main.56557cc0.css.map",
-    "main.c95dfbd7.js.map": "/nj-blog/static/js/main.c95dfbd7.js.map",
+    "main.54cd018d.js.map": "/nj-blog/static/js/main.54cd018d.js.map",
     "787.43623c70.chunk.js.map": "/nj-blog/static/js/787.43623c70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56557cc0.css",
-    "static/js/main.c95dfbd7.js"
+    "static/js/main.54cd018d.js"
   ]
 }
