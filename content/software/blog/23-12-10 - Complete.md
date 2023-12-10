@@ -5,4 +5,4 @@ It took me a while to finish this "little side project" of mine for a few reason
 
 I also hope to get started on content to populate this blog with. 
 
-Already there are improvements to be made. With a weird github pages routing issue (which doesn't occur when I run using `npm run start`), and the lack of syntax highlighting in code blocks. These features will probably be coming soon, but they most likely won't get posts to announce them.
+Already there are improvements to be made. With a weird github pages routing issue (which doesn't occur when I run using `npm run start`), and the lack of syntax highlighting in code blocks. These features will probably be coming soon, but they most likely won't get posts to announce them. 
