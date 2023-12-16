@@ -3,6 +3,12 @@ import { useQuery } from "react-query";
 
 import PostPage from "../PostPage/PostPage";
 
+function b64DecodeUnicode(str) {        // https://stackoverflow.com/questions/30106476/using-javascripts-atob-to-decode-base64-doesnt-properly-decode-utf-8-strings
+    return decodeURIComponent(Array.prototype.map.call(atob(str), function(c) {
+        return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)
+    }).join(''))
+}
+
 async function getBlogData( 
     category: string,
     project?: string, 
@@ -81,7 +87,7 @@ function SearchPage() {
 
     // Returning page
     if (typeof data === "string") {
-        const decodedData = atob(data);
+        const decodedData = b64DecodeUnicode(data);
         return <PostPage content={decodedData} />;
     } 
   
