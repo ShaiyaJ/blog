@@ -49,7 +49,9 @@ async function getBlogData(
         return jsonData.content;
     }
 
-    return jsonData.map((element) => element.name).filter((name) => {!(name.endsWith(".png"))});
+    return jsonData
+        .map((element) => element.name)
+        .filter((e) => !e.endsWith(".png"));
 }
 
 
