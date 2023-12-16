@@ -355,3 +355,7 @@ If I do end up doing this then I will most likely make a follow up post.
 I also thought about using more advanced crossterm functions to play gifs. Looking at the image crate docks, it wouldn't actually be that hard to add gif support. Perhaps if I get bored one day I might add this feature.
 
 That's all I have for this week, thanks for reading!
+
+
+### P.S.
+I almost forgot to mention one of the defining "features" of the development process. I decided to use only base neovim with no extensions. I want to rely less on IDE features to program. This did make some parts of the program an absolutely nightmare to write but overall it was actually pretty fun doing this.
