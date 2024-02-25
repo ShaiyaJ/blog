@@ -204,7 +204,7 @@ fn main() {
     ...
 ```
 
-![スクリーンショット 2023-12-16 015546.png](./スクリーンショット%202023-12-16%20015546.png)
+![スクリーンショット 2023-12-16 015546.png](https://raw.githubusercontent.com/ShaiyaJ/blog/gh-pages/content/software/termsprite/スクリーンショット%202023-12-16%20015546.png)
 
 This outputs an image, however it is stretched due to the inherent height that characters have. The way to solve this is to actually iterate over the y axis with a step - so that you tackle 2 rows at a time. Then you use half block characters and treat the background and foreground as separate pixels.
 
@@ -238,15 +238,15 @@ fn main() {
     ...
 ```
 
-![スクリーンショット 2023-12-16 020529.png](./スクリーンショット%202023-12-16%20020529.png)
+![スクリーンショット 2023-12-16 020529.png](https://raw.githubusercontent.com/ShaiyaJ/blog/gh-pages/content/software/termsprite/スクリーンショット%202023-12-16%20020529.png)
 
 Using the upper half block made the output look a little skewed, so I resorted to the lower half block which seems to be more balanced in my terminal.
 
-![スクリーンショット 2023-12-16 020728.png](./スクリーンショット%202023-12-16%20020728.png)
+![スクリーンショット 2023-12-16 020728.png](https://raw.githubusercontent.com/ShaiyaJ/blog/gh-pages/content/software/termsprite/スクリーンショット%202023-12-16%20020728.png)
 
 I tested it again with a pokemon sprite.
 
-![スクリーンショット 2023-12-16 021629.png](./スクリーンショット%202023-12-16%20021629.png)
+![スクリーンショット 2023-12-16 021629.png](https://raw.githubusercontent.com/ShaiyaJ/blog/gh-pages/content/software/termsprite/スクリーンショット%202023-12-16%20021629.png)
 
 ### Cleaning up the code and adding error handling
 Up to this point I had been using quite a lot of unwraps. So I replaced these with proper error handling.
@@ -337,11 +337,11 @@ fn calculate_legacy_color(r: u8, g: u8, b: u8) -> Color {
 
 This provided a strange output:
 
-![スクリーンショット 2023-12-16 114521.png](./スクリーンショット%202023-12-16%20114521.png)
+![スクリーンショット 2023-12-16 114521.png](https://raw.githubusercontent.com/ShaiyaJ/blog/gh-pages/content/software/termsprite/スクリーンショット%202023-12-16%20114521.png)
 
 When I tried it with Pikachu instead, it looked passable:
 
-![スクリーンショット 2023-12-16 115642.png](./スクリーンショット%202023-12-16%20115642.png)
+![スクリーンショット 2023-12-16 115642.png](https://raw.githubusercontent.com/ShaiyaJ/blog/gh-pages/content/software/termsprite/スクリーンショット%202023-12-16%20115642.png)
 
 This is an area of improvement in the future.
 
